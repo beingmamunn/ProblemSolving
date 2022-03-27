@@ -6,6 +6,6 @@ int main()
      while(t--)
      {
           scanf("%d %d", &item, &rupees);
-          printf("%d\n", (item-((item/2)-1))*rupees);
+          printf("%d\n", ((item/3)*2+item%3)*rupees);
      }
 }
